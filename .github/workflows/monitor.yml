@@ -40,7 +40,7 @@ jobs:
           ALERT_ON_FIRST_RUN: '0'
           USE_PLAYWRIGHT: '1'
         run: |
-          python roofz_monitor.py
+           python roofz_maastricht_monitor.py
 
       - name: Commit state update
         run: |
